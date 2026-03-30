@@ -103,6 +103,13 @@ export const Img = styled.img`
   justify-content: center;
   align-items: center;
   border: 2px solid ${({ theme }) => theme.primary};
+  box-shadow:  20px 20px 60px #1F2634,
+  -20px -20px 60px #1F2634;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px 0px ${({ theme }) => theme.primary}cc;
+  }
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -157,7 +164,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.text_primary + 'cc'};
 
   @media (max-width: 960px) {
     text-align: center;
@@ -189,12 +196,8 @@ export const ResumeButton = styled.a`
     background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
-    &:hover {
-        transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+    box-shadow:  20px 20px 60px #1F2634;
+    filter: brightness(1.2);
     }    
     
     

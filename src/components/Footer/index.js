@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Manoj Hegde</Logo>
+        <Logo>Abhay Saraf</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -100,7 +100,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Manoj Hegde. All rights reserved.
+          &copy; 2024 Abhay Saraf. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

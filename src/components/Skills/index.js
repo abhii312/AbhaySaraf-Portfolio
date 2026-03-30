@@ -103,6 +103,12 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    border: 1px solid ${({ theme }) => theme.primary};
+    box-shadow: 0px 0px 12px 0px ${({ theme }) => theme.primary}66;
+  }
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;

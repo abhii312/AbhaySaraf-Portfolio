@@ -16,8 +16,9 @@ const Button = styled.button`
     transition: all 0.8s ease-in-out;
 `
 const Card = styled.div`
-    width: 330px;
-    height: 490px;
+    width: 100%;
+    max-width: 330px;
+    min-height: 490px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -29,8 +30,8 @@ const Card = styled.div`
     gap: 14px;
     transition: all 0.5s ease-in-out;
     &:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
+        transform: translateY(-8px);
+        box-shadow: 0 0 40px 8px ${({ theme }) => theme.primary}33;
         filter: brightness(1.1);
     }
     &:hover ${Button} {
