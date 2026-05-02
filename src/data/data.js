@@ -8,7 +8,7 @@ export const Bio = {
     ],
     description: 
     "I am a results-oriented Software Engineer with a passion for building high-performance, scalable backend systems. Specialized in Java and Spring Boot, I have a proven track record of refactoring monolithic architectures into microservices, optimizing database performance, and delivering robust REST APIs. My focus is on clean code, SOLID principles, and leveraging cloud-native technologies to solve complex engineering challenges.",
-    github: "https://github.com/abhaysaraf",
+    github: "https://github.com/abhii312",
     linkedin: "https://www.linkedin.com/in/abhaysaraf",
     twitter: "https://twitter.com/abhaysaraf",
     email:"mailto:sarafabhay721@gmail.com",
@@ -167,8 +167,8 @@ export const projects = [
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
       tags: ["Java", "Spring Boot", "Redis", "MySQL", "Docker", "Base62"],
       category: "Backend Development",
-      github: "https://github.com/abhaysaraf",
-      webapp: "https://github.com/abhaysaraf",
+      github: "https://github.com/abhii312",
+      webapp: "https://github.com/abhii312",
     },
     {
       id: 1,
@@ -178,7 +178,7 @@ export const projects = [
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
       tags: ["Java", "Spring Boot", "Redis", "Token Bucket"],
       category: "Infrastructure",
-      github: "https://github.com/abhaysaraf",
-      webapp: "https://github.com/abhaysaraf",
+      github: "https://github.com/abhii312",
+      webapp: "https://github.com/abhii312",
     },
 ];
